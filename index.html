@@ -7,25 +7,73 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      header {
+        background-color: rgb(38, 202, 161);
+        font-size: large;
+        padding-right: 15px;
+      }
+      .userInfo {
+        margin-right: 70px;
+      }
+      nav {
+        background-color: rgb(199, 21, 9);
+        font-size: large;
+        margin-right: 15px;
+        padding: 10px 10px;
+      }
+      .userDetail {
+        margin-right: 70px;
+      }
+      .fa {
+        margin-right: 40px;
+      }
+      #follow{
+        margin-right: 20px;
+      }
+    </style>
   </head>
   <body>
-    <i class="fa fa-user" aria-hidden="true"></i>
-    <span>Mohit Sharma</span> &nbsp;
-    <i class="fa fa-phone-square" aria-hidden="true"></i>
-    <span>9865258236</span> &nbsp;
-    <i class="fa fa-envelope" aria-hidden="true"></i>
-    <span>mohit.sharma@gmail.com</span> <br /><br />
-    <iframe width="900px" height="550px"> </iframe>
+    <header>
+      <i class="fa fa-user" aria-hidden="true"></i>
+      <span class="userInfo">Mohit Sharma</span>
+      <i class="fa fa-phone-square" aria-hidden="true"></i>
+      <span class="userInfo">9865258236</span>
+      <i class="fa fa-envelope" aria-hidden="true"></i>
+      <span class="userInfo">mohit.sharma@gmail.com</span>
+    </header>
     <br /><br />
-    <span> Follow me on</span>
-    <a href="https://www.facebook.com/" target="_blank"
-      ><i class="fa fa-facebook-square" aria-hidden="true"></i
-    ></a>
-    &nbsp;
+    <nav>
+      <a href="home.html" target="frame"
+        ><span class="userDetail">HOME</span></a
+      >
+      <a href="techStack.html" target="frame"
+        ><span class="userDetail">TECHNOLOGY STACK</span></a
+      >
+      <a href="education.html" target="frame"
+        ><span class="userDetail">EDUCATION</span>
+      </a>
+      <a href="personal.html" target="frame">
+        <span class="userDetail">PERSONAL</span>
+      </a>
+      <a href="contactUs.html" target="frame">
+        <span class="userDetail">CONTACT ME</span>
+      </a>
+    </nav>
+    <br /><br />
+    <iframe name="iframe" width="900px" height="450px" src="home.html">
+    </iframe>
+    <br /><br />
+    <span id="follow"> Follow me on</span>
+    <a href="https://www.facebook.com/" target="_blank">
+      <i class="fa fa-facebook-square" aria-hidden="true"></i></a>
     <a href="https://in.linkedin.com/" target="_self"
       ><i class="fa fa-linkedin-square" aria-hidden="true"></i
     ></a>
-    &nbsp;
     <a href="https://www.instagram.com/" target="_blank"
       ><i class="fa fa-instagram" aria-hidden="true"></i
     ></a>
